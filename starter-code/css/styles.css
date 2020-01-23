@@ -9,7 +9,8 @@ ul {
 
 
 li,
-.empty {
+.empty,
+.emptyQueue {
     color: grey;
     height: 35px;
     background-color: whitesmoke;
@@ -21,7 +22,8 @@ li,
     padding: 0.75rem 0.25rem;
 }
 
-.full {
+.full,
+.fullQueue {
     height: 40px;
     background-color: gainsboro;
     color: black;
@@ -34,8 +36,17 @@ li,
 
 img {
     display: none;
+        transition: 3s;
+        /* margin-left: -1000px; */
+
 }
 
 .yes {
     display: flex;
+            transition: 3s;
+            justify-content: center;
+            align-items: center;
+            padding-left:24vw;
+            margin-left: 0px;
+
 }
